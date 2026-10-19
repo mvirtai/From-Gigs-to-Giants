@@ -1,0 +1,10 @@
+{
+  "name": "clicker-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teollisuussähkö- ja automaatiotyön clicker- ja simulaatiopeli (Blazor WebAssembly C#)",
+  "scripts": {
+    "dev": "bash -c 'command -v dotnet >/dev/null 2>&1 || (apt-get update && apt-get install -y dotnet-sdk-8.0); dotnet watch run --project frontend/ClickerGame.Client/ClickerGame.Client.csproj --urls http://0.0.0.0:3000 --non-interactive'",
+    "build": "bash -c 'command -v dotnet >/dev/null 2>&1 || (apt-get update && apt-get install -y dotnet-sdk-8.0); dotnet build frontend/ClickerGame.sln'"
+  }
+}
